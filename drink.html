@@ -1,0 +1,132 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Buzz N' Bites</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="search.css">
+      </head>
+      
+<body>
+    <header>
+        <nav class="level ">
+          <p class="level-item has-text-centered">
+            <a class="button is-primary" href="food.html">Food Search</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="button is-primary" href="https://www.youtube.com/watch?v=5rjB5JT9RC0">Food Playlist</a>
+          </p>
+          <p class="level-item has-text-centered">
+        <a href="index.html">
+            <img src="/assets/Buzzlogo.png" alt="Bowl of food between 2 drinks" style="height: 130px; margin-top: 5px; margin-bottom: 5px;">
+        </a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="button is-primary" href="https://www.youtube.com/watch?v=e3L1PIY1pN8">Drink Playlist</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="button is-primary" href="drink.html">Drink Search</a>
+          </p>
+        </nav>
+    </header>
+    
+<main>
+    <div class="container">
+          <div class="food-wrapper">
+            <div class="food-search">
+              <h3>Lets Find A Recipe Together</h3>
+              <div class="food-search-box">
+                <input class="input is-primary search-box" type="text" placeholder="What Main Ingredient Are You Working With?" id="search-input">
+                <button type="submit" class="button search-btn btn" id="search-btn"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+            <div class="food-result">
+              <h2 class="subtitle">Your recipes below:</h2>
+              <div id="food">
+      <div class="tile is-ancestor">
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-4by3">
+                        <img src="https://bulma.io/images/placeholders/640x480.png">
+                      </figure>
+                <p class="title">One</p>
+                <button class="js-modal-trigger button is-primary" data-target="modal-js-example">
+              Get This Recipe
+            </button>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-4by3">
+                        <img src="https://bulma.io/images/placeholders/640x480.png">
+                      </figure>
+                <p class="title">Two</p>
+                <button class="js-modal-trigger button is-primary" data-target="modal-js-example">
+              Get This Recipe
+            </button>
+              </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <figure class="image is-4by3">
+                          <img src="https://bulma.io/images/placeholders/640x480.png">
+                        </figure>
+                  <p class="title">Three</p>
+                  <button class="js-modal-trigger button is-primary" data-target="modal-js-example">
+                Get This Recipe
+              </button>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <figure class="image is-4by3">
+                          <img src="https://bulma.io/images/placeholders/640x480.png">
+                        </figure>
+                  <p class="title">Four</p>
+                  <button class="js-modal-trigger button is-primary" data-target="modal-js-example">
+                Get This Recipe
+              </button>
+                </article>
+              </div>
+          </div>
+      </div>
+     </div>
+    </div>
+</main>
+    <!--?FOOTER-->
+<footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Buzz N' Bites</strong> by Frank, Rollie, Patience. 
+        </p>
+      </div>
+</footer>
+
+<script src="script.js"></script>
+
+    <!--?MODAL DESIGN-->
+    <div id="modal-js-example" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <div class="box">
+          <h2 class="recipe-name">Meals Name Here</h2>
+              <h4 class="category">Category Name</h4>
+              <div class="recipe-instructions">
+                <h3>Instructions:</h3>
+                <p>this is how the food is made</p>
+                <p>because yes</p>
+              </div>
+              <div class="recipe-img">
+                <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/640x480.png">
+              </figure>
+              </div>
+        </div>
+      </div>
+    
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+</body>
+</html>
