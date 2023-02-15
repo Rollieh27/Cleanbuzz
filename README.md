@@ -30,15 +30,15 @@ Food Search Results
 <img width="1440" alt="Screenshot 2023-02-15 at 4 19 36 PM" src="https://user-images.githubusercontent.com/119282670/219170325-562e7e24-d92e-47da-aa74-a9da3943a752.png">
 
 ## Technologies ##
-The MealDB API, The CocktailDB API, Font Awesome
+The MealDB API, The CocktailDB API, Font Awesome,
 Bulma CSS, HTML, CSS, Javascript, VSCode
 
 ## Challenges ##
-Learning curve of using Bulma with JS
-Learning fetch api
-Hiding results tiles until after the search (TO-DO)
-Closing the modal(TO-DO)
-Pulling data to modal(TO-DO)
+Learning curve of using Bulma with JS<br>
+Learning fetch api<br>
+Hiding results tiles until after the search (TO-DO)<br>
+Closing the modal(TO-DO)<br>
+Pulling data to modal(TO-DO)<br>
 
 ## Future Features ##
  -Create account to like, save, upload recipes<br>
