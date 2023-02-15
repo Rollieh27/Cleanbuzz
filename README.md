@@ -21,7 +21,7 @@ Our website has many helpful recipes for both novice and experienced chefs & mix
 USER STORY: <br>
 AS a person exhausted with inflation and deciding which over priced restaurant/bar to visit,<br>
 I WANT to find an app where I can search for food and drinks with the ingredients at my disposal<br>
-SO THAT i can make myself a good meal.<br>
+SO THAT I can make myself a good meal.<br>
 
 ## Screenshots ##
 Homepage
