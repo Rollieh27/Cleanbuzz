@@ -30,7 +30,7 @@ Food Search Results
 <img width="1440" alt="Screenshot 2023-02-15 at 4 19 36 PM" src="https://user-images.githubusercontent.com/119282670/219170325-562e7e24-d92e-47da-aa74-a9da3943a752.png">
 
 ## Technologies ##
-The MealDB API, The CocktailDB API,
+The MealDB API, The CocktailDB API, Font Awesome
 Bulma CSS, HTML, CSS, Javascript, VSCode
 
 ## Challenges ##
